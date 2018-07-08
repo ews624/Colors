@@ -12,6 +12,8 @@
 		FE7B4CD720E93A7C00C5A103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7B4CD620E93A7C00C5A103 /* Assets.xcassets */; };
 		FE7B4CDA20E93A7C00C5A103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7B4CD820E93A7C00C5A103 /* LaunchScreen.storyboard */; };
 		FE7B4CE220E93D8D00C5A103 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B4CE120E93D8D00C5A103 /* ColorsViewController.swift */; };
+		FE7B4D0420F2727E00C5A103 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B4D0320F2727E00C5A103 /* Color.swift */; };
+		FE7B4D0620F2778100C5A103 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B4D0520F2778100C5A103 /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FE7B4CD920E93A7C00C5A103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE7B4CDB20E93A7C00C5A103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE7B4CE120E93D8D00C5A103 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		FE7B4D0320F2727E00C5A103 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FE7B4D0520F2778100C5A103 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FE7B4CD620E93A7C00C5A103 /* Assets.xcassets */,
 				FE7B4CD820E93A7C00C5A103 /* LaunchScreen.storyboard */,
 				FE7B4CDB20E93A7C00C5A103 /* Info.plist */,
+				FE7B4D0320F2727E00C5A103 /* Color.swift */,
+				FE7B4D0520F2778100C5A103 /* ColorDetailViewController.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				FE7B4CE220E93D8D00C5A103 /* ColorsViewController.swift in Sources */,
 				FE7B4CD020E93A7900C5A103 /* AppDelegate.swift in Sources */,
+				FE7B4D0420F2727E00C5A103 /* Color.swift in Sources */,
+				FE7B4D0620F2778100C5A103 /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
