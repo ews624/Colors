@@ -49,9 +49,13 @@ class ColorsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         cell.textLabel?.text = colors[indexPath.row].name
         cell.backgroundColor = colors[indexPath.row].uiColor
+        cell.selectionStyle = .none
         
         return cell
     }
+    
+   
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
